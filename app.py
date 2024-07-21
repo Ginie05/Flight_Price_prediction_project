@@ -238,8 +238,8 @@ preprocessor = Pipeline(steps=[
 ])
 
 # read the training data
-path=r"C:\Users\LENOVO\OneDrive\Desktop\Flight_price_predict_project\DataSets\train1_data_new.csv"
-train1_data=pd.read_csv(path)
+# path=r"C:\Users\LENOVO\OneDrive\Desktop\Flight_price_predict_project\DataSets\train1_data_new.csv"
+train1_data=pd.read_csv("train1_data_new.csv")
 x_train=train1_data.drop(columns="price")
 y_train=train1_data.price.copy()
 

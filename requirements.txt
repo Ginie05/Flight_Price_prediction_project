@@ -5,3 +5,4 @@ streamlit
 feature-engine
 xgboost
 joblib
+matplotlib
